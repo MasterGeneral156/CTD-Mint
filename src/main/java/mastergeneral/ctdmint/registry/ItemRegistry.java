@@ -28,4 +28,10 @@ public class ItemRegistry {
 	public static final RegistryObject<Item> bill_5000 = ITEMS.register("bill_5000", () -> ModItems.bill_5000);
 	public static final RegistryObject<Item> bill_10000 = ITEMS.register("bill_10000", () -> ModItems.bill_10000);
 	public static final RegistryObject<Item> bill_50000 = ITEMS.register("bill_50000", () -> ModItems.bill_50000);
+	
+	//Money Storage
+	public static final RegistryObject<Item> wallet = ITEMS.register("wallet", () -> ModItems.wallet);
+	public static final RegistryObject<Item> atm_card = ITEMS.register("atm_card", () -> ModItems.atm_card);
+	public static final RegistryObject<Item> money_bag = ITEMS.register("money_bag", () -> ModItems.money_bag);
+	public static final RegistryObject<Item> coin_pouch = ITEMS.register("coin_pouch", () -> ModItems.coin_pouch);
 }
