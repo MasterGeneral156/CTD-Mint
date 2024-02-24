@@ -6,10 +6,10 @@
 	"item.ctdmint.coin_50": "$0.50",
 	
 	"item.ctdmint.bill_1": "$1",
-	"item.ctdmint.bill_1": "$2",
+	"item.ctdmint.bill_2": "$2",
 	"item.ctdmint.bill_5": "$5",
 	"item.ctdmint.bill_10": "$10",
-	"item.ctdmint.bill_10": "$20",
+	"item.ctdmint.bill_20": "$20",
 	"item.ctdmint.bill_50": "$50",
 	"item.ctdmint.bill_100": "$100",
 	"item.ctdmint.bill_500": "$500",
