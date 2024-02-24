@@ -21,5 +21,7 @@
 	"item.ctdmint.coin_pouch": "Coin Pouch",
 	"item.ctdmint.atm_card": "Currency Card",
 	"item.ctdmint.money_bag": "Money Bag",
-	"item.ctdmint.wallet": "Wallet"
+	"item.ctdmint.wallet": "Wallet",
+	
+	"ctdmint.itemgroup.name": "CTD Mint"
 }
