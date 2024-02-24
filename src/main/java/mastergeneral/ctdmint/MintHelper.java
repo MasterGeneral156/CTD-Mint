@@ -50,7 +50,12 @@ public class MintHelper {
 				inv.add(new ItemStack(ModItems.bill_50));
 				start -= 50F;
 			}
-			else if ((start >= 10F) && (start < 50F))
+			else if ((start >= 20F) && (start < 50F))
+			{
+				inv.add(new ItemStack(ModItems.bill_20));
+				start -= 20F;
+			}
+			else if ((start >= 10F) && (start < 20F))
 			{
 				inv.add(new ItemStack(ModItems.bill_10));
 				start -= 10F;
@@ -60,7 +65,12 @@ public class MintHelper {
 				inv.add(new ItemStack(ModItems.bill_5));
 				start -=  5F;
 			}
-			else if ((start >= 1F) && (start < 5F))
+			else if ((start >= 2F) && (start < 5F))
+			{
+				inv.add(new ItemStack(ModItems.bill_2));
+				start -= 2F;
+			}
+			else if ((start >= 1F) && (start < 2F))
 			{
 				inv.add(new ItemStack(ModItems.bill_1));
 				start -= 1F;

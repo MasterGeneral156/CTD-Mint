@@ -9,8 +9,10 @@ public class ModItems {
 	public static ItemCurrency coin_50 = new ItemCurrency(0.5F);
 	
 	public static ItemCurrency bill_1 = new ItemCurrency(1F);
+	public static ItemCurrency bill_2 = new ItemCurrency(2F);
 	public static ItemCurrency bill_5 = new ItemCurrency(5F);
 	public static ItemCurrency bill_10 = new ItemCurrency(10F);
+	public static ItemCurrency bill_20 = new ItemCurrency(20F);
 	public static ItemCurrency bill_50 = new ItemCurrency(50F);
 	public static ItemCurrency bill_100 = new ItemCurrency(100F);
 	public static ItemCurrency bill_500 = new ItemCurrency(500F);

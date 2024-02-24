@@ -105,11 +105,15 @@ public class ItemStorageCard extends CTDItem
 				return ModItems.bill_100;
 			else if ((max >= 50F) && (max < 100F))
 				return ModItems.bill_50;
-			else if ((max >= 10F) && (max < 50F))
+			else if ((max >= 20F) && (max < 50F))
+				return ModItems.bill_20;
+			else if ((max >= 10F) && (max < 20F))
 				return ModItems.bill_10;
 			else if ((max >= 5F) && (max < 10F))
 				return ModItems.bill_5;
-			else if ((max >= 1F) && (max < 5F))
+			else if ((max >= 2F) && (max < 10F))
+				return ModItems.bill_2;
+			else if ((max >= 1F) && (max < 2F))
 				return ModItems.bill_1;
 			else if ((max >= 0.5F) && (max < 1F))
 				return ModItems.coin_50;

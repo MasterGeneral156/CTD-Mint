@@ -19,8 +19,10 @@ public class ItemRegistry {
 	
 	//Bills
 	public static final RegistryObject<Item> bill_1 = ITEMS.register("bill_1", () -> ModItems.bill_1);
+	public static final RegistryObject<Item> bill_2 = ITEMS.register("bill_2", () -> ModItems.bill_2);
 	public static final RegistryObject<Item> bill_5 = ITEMS.register("bill_5", () -> ModItems.bill_5);
 	public static final RegistryObject<Item> bill_10 = ITEMS.register("bill_10", () -> ModItems.bill_10);
+	public static final RegistryObject<Item> bill_20 = ITEMS.register("bill_20", () -> ModItems.bill_20);
 	public static final RegistryObject<Item> bill_50 = ITEMS.register("bill_50", () -> ModItems.bill_50);
 	public static final RegistryObject<Item> bill_100 = ITEMS.register("bill_100", () -> ModItems.bill_100);
 	public static final RegistryObject<Item> bill_500 = ITEMS.register("bill_500", () -> ModItems.bill_500);
