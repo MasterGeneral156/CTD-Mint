@@ -14,7 +14,7 @@ public class MintTab {
 	
 	public static final RegistryObject<CreativeModeTab> MINT_TAB = CREATIVE_MODE_TABS.register("mint_tab", () -> CreativeModeTab.builder()
 			.withTabsBefore(CreativeModeTabs.COMBAT)
-            .icon(() -> ModItems.bill_50000.getDefaultInstance())
+            .icon(() -> ModItems.bill_1000000.getDefaultInstance())
             .title(Component.translatable("ctdmint.itemgroup.name"))
             .build());
 	
