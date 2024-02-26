@@ -91,7 +91,13 @@ public class ItemStorageCard extends CTDItem
 		{
 			ItemStorageCard item = (ItemStorageCard) stack.getItem();
 			float max = item.getCurrentMoney(stack);
-			if (max >= 50000F)
+			if (max >= 1000000F)
+				return ModItems.bill_1000000;
+			else if ((max >= 500000F) && (max < 1000000F))
+				return ModItems.bill_500000;
+			else if ((max >= 100000F) && (max < 500000F))
+				return ModItems.bill_100000;
+			else if ((max >= 50000F) && (max < 100000F))
 				return ModItems.bill_50000;
 			else if ((max >= 10000F) && (max < 50000F))
 				return ModItems.bill_10000;
@@ -136,7 +142,7 @@ public class ItemStorageCard extends CTDItem
 	{
 		if (stackIn.hasTag())
 		{
-			return stackIn.getTag().getFloat("currentStored");
+			return (stackIn.getTag().getFloat("currentStored") >= 0.01F) ? stackIn.getTag().getFloat("currentStored") : 0F;
 		}
 		else
 		{
