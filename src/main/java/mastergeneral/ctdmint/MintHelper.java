@@ -15,7 +15,22 @@ public class MintHelper {
 		float start = money;
 		while (start > 0F)
 		{
-			if (start >= 50000F)
+			if (start >= 1000000F)
+			{
+				inv.add(new ItemStack(ModItems.bill_1000000));
+				start -= 1000000F;
+			}
+			else if ((start >= 500000F) && (start < 1000000F))
+			{
+				inv.add(new ItemStack(ModItems.bill_500000));
+				start -= 500000F;
+			}
+			else if ((start >= 100000F) && (start < 500000F))
+			{
+				inv.add(new ItemStack(ModItems.bill_100000));
+				start -= 100000F;
+			}
+			else if ((start >= 50000F) && (start < 100000F))
 			{
 				inv.add(new ItemStack(ModItems.bill_50000));
 				start -= 50000F;
