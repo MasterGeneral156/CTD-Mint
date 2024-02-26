@@ -60,6 +60,9 @@ public class CTDMint {
     		ev.accept(ModItems.bill_5000);
     		ev.accept(ModItems.bill_10000);
     		ev.accept(ModItems.bill_50000);
+    		ev.accept(ModItems.bill_100000);
+    		ev.accept(ModItems.bill_500000);
+    		ev.accept(ModItems.bill_1000000);
     		
     		ev.accept(ModItems.coin_pouch);
     		ev.accept(ModItems.wallet);
