@@ -15,10 +15,15 @@ public class MintHelper {
 		float start = money;
 		while (start > 0F)
 		{
-			if (start >= 1000000F)
+			if (start >= 5000000F)
+			{
+				inv.add(new ItemStack(ModItems.bill_5000000));
+				start -= 1000000F;
+			}
+			else if ((start >= 1000000F) && (start < 5000000F))
 			{
 				inv.add(new ItemStack(ModItems.bill_1000000));
-				start -= 1000000F;
+				start -= 500000F;
 			}
 			else if ((start >= 500000F) && (start < 1000000F))
 			{
@@ -120,11 +125,8 @@ public class MintHelper {
 	
 	public static float currencyToFloat(ItemStack stack)
 	{
-		if (stack.getItem() instanceof ItemCurrency)
-		{
-			ItemCurrency item = (ItemCurrency) stack.getItem();
+		if (stack.getItem() instanceof ItemCurrency item)
 			return item.returnValue();
-		}
 		else
 			return 0F;
 	}

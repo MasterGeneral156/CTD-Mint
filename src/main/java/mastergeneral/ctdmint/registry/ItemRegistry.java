@@ -30,6 +30,10 @@ public class ItemRegistry {
 	public static final RegistryObject<Item> bill_5000 = ITEMS.register("bill_5000", () -> ModItems.bill_5000);
 	public static final RegistryObject<Item> bill_10000 = ITEMS.register("bill_10000", () -> ModItems.bill_10000);
 	public static final RegistryObject<Item> bill_50000 = ITEMS.register("bill_50000", () -> ModItems.bill_50000);
+	public static final RegistryObject<Item> bill_100000 = ITEMS.register("bill_100000", () -> ModItems.bill_100000);
+	public static final RegistryObject<Item> bill_500000 = ITEMS.register("bill_500000", () -> ModItems.bill_500000);
+	public static final RegistryObject<Item> bill_1000000 = ITEMS.register("bill_1000000", () -> ModItems.bill_1000000);
+	public static final RegistryObject<Item> bill_5000000 = ITEMS.register("bill_5000000", () -> ModItems.bill_5000000);
 	
 	//Money Storage
 	public static final RegistryObject<Item> wallet = ITEMS.register("wallet", () -> ModItems.wallet);

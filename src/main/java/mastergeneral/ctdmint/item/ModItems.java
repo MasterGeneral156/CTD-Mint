@@ -23,6 +23,7 @@ public class ModItems {
 	public static ItemCurrency bill_100000 = new ItemCurrency(100000F);
 	public static ItemCurrency bill_500000 = new ItemCurrency(500000F);
 	public static ItemCurrency bill_1000000 = new ItemCurrency(1000000F);
+	public static ItemCurrency bill_5000000 = new ItemCurrency(5000000F);
 	
 	public static ItemStorageCard coin_pouch = new ItemStorageCard(12.75F);
 	public static ItemStorageCard wallet = new ItemStorageCard(500F);
