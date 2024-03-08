@@ -20,6 +20,7 @@
 	"item.ctdmint.bill_100000": "$100,000",
 	"item.ctdmint.bill_500000": "$500,000",
 	"item.ctdmint.bill_1000000": "$1,000,000",
+	"item.ctdmint.bill_5000000": "$5,000,000",
 	
 	"item.ctdmint.coin_pouch": "Coin Pouch",
 	"item.ctdmint.atm_card": "Currency Card",
