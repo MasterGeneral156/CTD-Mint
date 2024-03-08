@@ -3,6 +3,8 @@ package mastergeneral.ctdmint;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.themastergeneral.ctdcore.helpers.ModUtils;
+
 import mastergeneral.ctdmint.item.ModItems;
 import mastergeneral.ctdmint.registry.ItemRegistry;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,7 +36,7 @@ public class CTDMint {
 	
 	private void setup(final FMLCommonSetupEvent event)
     {
-		LOGGER.info("CTD Mint is launching.");
+		LOGGER.info("CTD Mint is launching for " + ModUtils.getLoader() + " v" + ModUtils.getLoaderVersion());
     }
 	
 	private void fillTab(BuildCreativeModeTabContentsEvent ev)
@@ -63,6 +65,7 @@ public class CTDMint {
     		ev.accept(ModItems.bill_100000);
     		ev.accept(ModItems.bill_500000);
     		ev.accept(ModItems.bill_1000000);
+    		ev.accept(ModItems.bill_5000000);
     		
     		ev.accept(ModItems.coin_pouch);
     		ev.accept(ModItems.wallet);
