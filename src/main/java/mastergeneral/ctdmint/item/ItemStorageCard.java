@@ -8,7 +8,6 @@ import com.themastergeneral.ctdcore.helpers.ModUtils;
 import com.themastergeneral.ctdcore.helpers.ServerHelper;
 import com.themastergeneral.ctdcore.item.CTDItem;
 
-import mastergeneral.ctdmint.CTDMint;
 import mastergeneral.ctdmint.MintHelper;
 import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.nbt.CompoundTag;
