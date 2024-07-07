@@ -1,6 +1,7 @@
 package mastergeneral.ctdmint.item;
 
-import java.util.List;
+/*import java.util.List;
+import java.util.Set;
 
 import javax.annotation.Nullable;
 
@@ -10,6 +11,9 @@ import com.themastergeneral.ctdcore.item.CTDItem;
 
 import mastergeneral.ctdmint.MintHelper;
 import net.minecraft.client.gui.screens.Screen;
+import net.minecraft.core.component.DataComponentMap;
+import net.minecraft.core.component.DataComponentType;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
 import net.minecraft.util.Mth;
@@ -36,7 +40,7 @@ public class ItemStorageCard extends CTDItem
 	@Override
 	public void onCraftedBy(ItemStack stack, Level worldIn, Player playerIn) 
 	{
-		if (!stack.hasTag())
+		if (!stack.getComponents().isEmpty())
 		{
 			CompoundTag compoundnbt = new CompoundTag();
 			compoundnbt.putFloat("currentStored", 0);
@@ -151,7 +155,7 @@ public class ItemStorageCard extends CTDItem
 	
 	protected float getMaxMoney(ItemStack stackIn)
 	{
-		if (stackIn.hasTag())
+		if (stackIn))
 		{
 			return stackIn.getTag().getFloat("maxStored");
 		}
@@ -254,4 +258,4 @@ public class ItemStorageCard extends CTDItem
 		}
 		super.appendHoverText(stack, worldIn, tooltip, flagIn);
 	}
-}
+}*/

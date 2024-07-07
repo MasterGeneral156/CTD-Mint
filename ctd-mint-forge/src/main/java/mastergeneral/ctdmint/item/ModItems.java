@@ -25,8 +25,8 @@ public class ModItems {
 	public static ItemCurrency bill_1000000 = new ItemCurrency(1000000F);
 	public static ItemCurrency bill_5000000 = new ItemCurrency(5000000F);
 	
-	public static ItemStorageCard coin_pouch = new ItemStorageCard(12.75F);
-	public static ItemStorageCard wallet = new ItemStorageCard(500F);
-	public static ItemStorageCard money_bag = new ItemStorageCard(7500F);
-	public static ItemStorageCard atm_card = new ItemStorageCard((float) Short.MAX_VALUE);
+	//public static ItemStorageCard coin_pouch = new ItemStorageCard(12.75F);
+	//public static ItemStorageCard wallet = new ItemStorageCard(500F);
+	//public static ItemStorageCard money_bag = new ItemStorageCard(7500F);
+	//public static ItemStorageCard atm_card = new ItemStorageCard((float) Short.MAX_VALUE);
 }

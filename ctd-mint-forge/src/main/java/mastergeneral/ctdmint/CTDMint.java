@@ -67,10 +67,10 @@ public class CTDMint {
     		ev.accept(ModItems.bill_1000000);
     		ev.accept(ModItems.bill_5000000);
     		
-    		ev.accept(ModItems.coin_pouch);
-    		ev.accept(ModItems.wallet);
-    		ev.accept(ModItems.money_bag);
-    		ev.accept(ModItems.atm_card);
+    		//ev.accept(ModItems.coin_pouch);
+    		//ev.accept(ModItems.wallet);
+    		//ev.accept(ModItems.money_bag);
+    		//ev.accept(ModItems.atm_card);
     	}
 	}
 

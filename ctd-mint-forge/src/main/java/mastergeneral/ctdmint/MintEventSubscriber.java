@@ -43,8 +43,8 @@ public class MintEventSubscriber {
 	        
 	        if (event.getType() == VillagerProfession.LEATHERWORKER)
 	        {
-	        	event.getTrades().get(1).add(new MintTrades(ModItems.bill_20, 1, ModItems.wallet, 1, 1, 20, 1F));
-	        	event.getTrades().get(1).add(new MintTrades(ModItems.bill_5, 1, ModItems.coin_pouch, 1, 1, 20, 1F));
+	        	//event.getTrades().get(1).add(new MintTrades(ModItems.bill_20, 1, ModItems.wallet, 1, 1, 20, 1F));
+	        	//event.getTrades().get(1).add(new MintTrades(ModItems.bill_5, 1, ModItems.coin_pouch, 1, 1, 20, 1F));
 	        	
 	        	event.getTrades().get(1).add(new MintTrades(Items.LEATHER, 8, ModItems.bill_20, 1, 5, 20, 1F));
 	        	event.getTrades().get(1).add(new MintTrades(Items.RABBIT_HIDE, 14, ModItems.bill_5, 3, 5, 20, 1F));
@@ -52,7 +52,7 @@ public class MintEventSubscriber {
 	        
 	        if (event.getType() == VillagerProfession.LIBRARIAN)
 	        {
-	        	event.getTrades().get(1).add(new MintTrades(ModItems.bill_500, 1, ModItems.atm_card, 1, 1, 20, 1F));
+	        	//event.getTrades().get(1).add(new MintTrades(ModItems.bill_500, 1, ModItems.atm_card, 1, 1, 20, 1F));
 	        	
 	        	event.getTrades().get(1).add(new MintTrades(Items.BOOK, 12, ModItems.bill_10, 3, 5, 20, 1F));
 	        	event.getTrades().get(1).add(new MintTrades(Items.PAPER, 36, ModItems.bill_20, 2, 3, 20, 1F));

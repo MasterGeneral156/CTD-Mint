@@ -7,6 +7,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.npc.VillagerTrades;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.trading.ItemCost;
 import net.minecraft.world.item.trading.MerchantOffer;
 
 public class MintTrades implements VillagerTrades.ItemListing {
@@ -33,8 +34,9 @@ public class MintTrades implements VillagerTrades.ItemListing {
 		@Override
 		public MerchantOffer getOffer(Entity e, RandomSource random) {
 	    	ItemStack buyStack = new ItemStack(buyItem, buyCount);
+			ItemCost cost = new ItemCost(buyStack.getItem());
 	    	ItemStack sellStack = new ItemStack(sellItem, sellCount);
-	        return new MerchantOffer(buyStack, sellStack, maxUses, experience, priceMultiplier);
+	        return new MerchantOffer(cost, sellStack, maxUses, experience, priceMultiplier);
 		}
 
 }
