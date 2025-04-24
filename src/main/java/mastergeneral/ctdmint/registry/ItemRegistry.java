@@ -40,4 +40,6 @@ public class ItemRegistry {
 	public static final RegistryObject<Item> atm_card = ITEMS.register("atm_card", () -> ModItems.atm_card);
 	public static final RegistryObject<Item> money_bag = ITEMS.register("money_bag", () -> ModItems.money_bag);
 	public static final RegistryObject<Item> coin_pouch = ITEMS.register("coin_pouch", () -> ModItems.coin_pouch);
+
+	public static final RegistryObject<Item> selling_block = ITEMS.register("selling_block", () -> ModItems.selling_block);
 }

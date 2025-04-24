@@ -1,5 +1,8 @@
 package mastergeneral.ctdmint;
 
+import mastergeneral.ctdmint.registry.BlockEntityRegistry;
+import mastergeneral.ctdmint.registry.BlockRegistry;
+import mastergeneral.ctdmint.registry.RecipeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -31,6 +34,10 @@ public class CTDMint {
         
         MinecraftForge.EVENT_BUS.register(this);
         ItemRegistry.ITEMS.register(modbus);
+		BlockRegistry.BLOCKS.register(modbus);
+		BlockEntityRegistry.TILES.register(modbus);
+		RecipeRegistry.RECIPE_SERIALIZER.register(modbus);
+		RecipeRegistry.RECIPE_TYPES.register(modbus);
         MintTab.CREATIVE_MODE_TABS.register(modbus);
 	}
 	
@@ -71,6 +78,8 @@ public class CTDMint {
     		ev.accept(ModItems.wallet);
     		ev.accept(ModItems.money_bag);
     		ev.accept(ModItems.atm_card);
+
+			ev.accept(ModItems.selling_block);
     	}
 	}
 

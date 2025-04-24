@@ -1,0 +1,12 @@
+{
+	"forge_marker": 1,
+	"variants": {
+		"normal": {
+			"model": "ctdmint:selling_block"
+		},
+		"inventory": {
+			"model": "ctdmint:selling_block",
+			"transform": "forge:default-block"
+		}
+	}
+}

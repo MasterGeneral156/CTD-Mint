@@ -1,5 +1,7 @@
 package mastergeneral.ctdmint.item;
 
+import mastergeneral.ctdmint.block.MintBlocks;
+
 public class ModItems {
 
 	public static ItemCurrency coin_1 = new ItemCurrency(0.01F);
@@ -29,4 +31,6 @@ public class ModItems {
 	public static ItemStorageCard wallet = new ItemStorageCard(500F);
 	public static ItemStorageCard money_bag = new ItemStorageCard(7500F);
 	public static ItemStorageCard atm_card = new ItemStorageCard((float) Short.MAX_VALUE);
+
+	public static MintBlockItems selling_block = new MintBlockItems(MintBlocks.selling_block);
 }
