@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "forge:dyes"
+  },
+  "value": 0.02
+}

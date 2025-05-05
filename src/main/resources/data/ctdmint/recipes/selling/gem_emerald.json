@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "forge:gems/emerald"
+  },
+  "value": 375
+}

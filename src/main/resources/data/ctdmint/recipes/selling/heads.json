@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "forge:heads"
+  },
+  "value": 175
+}

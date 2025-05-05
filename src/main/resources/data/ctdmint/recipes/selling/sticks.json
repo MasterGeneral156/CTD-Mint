@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "forge:rods/wooden"
+  },
+  "value": 0.5
+}

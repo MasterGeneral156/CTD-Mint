@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "minecraft:wooden_doors"
+  },
+  "value": 6
+}

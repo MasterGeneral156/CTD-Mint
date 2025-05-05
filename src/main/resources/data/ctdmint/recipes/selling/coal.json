@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "minecraft:coals"
+  },
+  "value": 18
+}

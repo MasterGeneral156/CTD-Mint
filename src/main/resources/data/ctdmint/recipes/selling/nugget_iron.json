@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "forge:nuggets/iron"
+  },
+  "value": 4.8
+}

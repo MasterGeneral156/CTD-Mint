@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "forge:nether_stars"
+  },
+  "value": 1500
+}
