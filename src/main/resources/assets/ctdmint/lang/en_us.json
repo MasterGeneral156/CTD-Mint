@@ -27,5 +27,7 @@
 	"item.ctdmint.money_bag": "Money Bag",
 	"item.ctdmint.wallet": "Wallet",
 	
+	"block.ctdmint.selling_block": "Labor Block",
+	
 	"ctdmint.itemgroup.name": "CTD Mint"
 }
