@@ -1,7 +1,7 @@
 {
   "type": "ctdmint:selling",
   "input": {
-    "tag": "minecraft:wooden_trapdoors"
+    "item": "minecraft:cooked_chicken"
   },
   "value": 1.5
 }

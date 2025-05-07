@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "item": "minecraft:beetroot_soup"
+  },
+  "value": 3.38
+}

@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "tag": "forge:raw_materials/iron"
+  },
+  "value": 108.8
+}

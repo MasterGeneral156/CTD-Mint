@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "item": "minecraft:powdered_snow_bucket"
+  },
+  "value": 144
+}

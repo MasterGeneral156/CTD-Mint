@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "item": "minecraft:pufferfish_bucket"
+  },
+  "value": 144
+}

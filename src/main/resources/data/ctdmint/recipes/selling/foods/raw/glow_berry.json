@@ -1,7 +1,7 @@
 {
   "type": "ctdmint:selling",
   "input": {
-    "tag": "minecraft:wooden_stairs"
+    "item": "minecraft:glow_berries"
   },
   "value": 0.75
 }

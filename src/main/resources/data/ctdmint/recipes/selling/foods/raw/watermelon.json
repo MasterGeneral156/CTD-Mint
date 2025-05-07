@@ -1,7 +1,7 @@
 {
   "type": "ctdmint:selling",
   "input": {
-    "tag": "minecraft:wooden_buttons"
+    "item": "minecraft:melon_slice"
   },
   "value": 0.5
 }

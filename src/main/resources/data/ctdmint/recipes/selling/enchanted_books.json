@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "item": "minecraft:enchanted_book", "data": 32767
+  },
+  "value": 100
+}

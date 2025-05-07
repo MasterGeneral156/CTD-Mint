@@ -1,7 +1,7 @@
 {
   "type": "ctdmint:selling",
   "input": {
-    "tag": "minecraft:wooden_doors"
+    "item": "minecraft:cooked_cod"
   },
   "value": 3
 }

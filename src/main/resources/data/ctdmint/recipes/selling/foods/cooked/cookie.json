@@ -1,7 +1,7 @@
 {
   "type": "ctdmint:selling",
   "input": {
-    "tag": "minecraft:wooden_doors"
+    "item": "minecraft:cookie"
   },
-  "value": 3
+  "value": 1
 }

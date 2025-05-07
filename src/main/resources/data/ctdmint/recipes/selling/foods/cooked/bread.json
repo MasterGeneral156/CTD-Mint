@@ -1,7 +1,7 @@
 {
   "type": "ctdmint:selling",
   "input": {
-    "item": "minecraft:diamond"
+    "item": "minecraft:bread"
   },
-  "value": 25.0
+  "value": 0.4
 }

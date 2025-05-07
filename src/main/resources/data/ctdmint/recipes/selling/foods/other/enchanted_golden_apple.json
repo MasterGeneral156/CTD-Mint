@@ -1,0 +1,7 @@
+{
+  "type": "ctdmint:selling",
+  "input": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "value": 1124.75
+}
