@@ -7,9 +7,7 @@ import com.themastergeneral.ctdcore.helpers.ModUtils;
 
 import mastergeneral.ctdmint.item.ModItems;
 import mastergeneral.ctdmint.registry.ItemRegistry;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
-import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -22,16 +20,17 @@ public class CTDMint {
 	
 	public static final String MODID = "ctdmint";
 	
-	public CTDMint()
+	public CTDMint(FMLJavaModLoadingContext context)
 	{
 		instance = this;
-		IEventBus modbus = FMLJavaModLoadingContext.get().getModEventBus();
-        modbus.addListener(this::setup);
-        modbus.addListener(this::fillTab);
-        
-        MinecraftForge.EVENT_BUS.register(this);
-        ItemRegistry.ITEMS.register(modbus);
-        MintTab.CREATIVE_MODE_TABS.register(modbus);
+        // Register the setup method for modloading
+        var modBusGroup = context.getModBusGroup();
+
+        FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::setup);
+        BuildCreativeModeTabContentsEvent.getBus(modBusGroup).addListener(this::fillTab);
+
+        ItemRegistry.ITEMS.register(modBusGroup);
+        MintTab.CREATIVE_MODE_TABS.register(modBusGroup);
 	}
 	
 	private void setup(final FMLCommonSetupEvent event)
