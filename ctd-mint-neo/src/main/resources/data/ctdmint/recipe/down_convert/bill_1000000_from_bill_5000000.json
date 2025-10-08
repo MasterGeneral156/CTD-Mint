@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "ctdmint:bill_5000000"
+  ],
+  "result": {
+    "count": 5,
+    "id": "ctdmint:bill_1000000"
+  }
+}
