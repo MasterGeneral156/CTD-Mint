@@ -1,5 +1,6 @@
 package mastergeneral.ctdmint;
 
+import net.minecraftforge.event.village.VillagerTradesEvent;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -28,6 +29,7 @@ public class CTDMint {
 
         FMLCommonSetupEvent.getBus(modBusGroup).addListener(this::setup);
         BuildCreativeModeTabContentsEvent.getBus(modBusGroup).addListener(this::fillTab);
+        VillagerTradesEvent.BUS.addListener(MintEventSubscriber::onVillagerTradesSetup);
 
         ItemRegistry.ITEMS.register(modBusGroup);
         MintTab.CREATIVE_MODE_TABS.register(modBusGroup);
