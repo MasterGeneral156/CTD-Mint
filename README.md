@@ -1,4 +1,4 @@
 # CTD Mint [![](http://cf.way2muchnoise.eu/full_ctd-currency_downloads.svg)](https://minecraft.curseforge.com/projects/ctd-currency) [![](http://cf.way2muchnoise.eu/versions/ctd-currency.svg)](https://minecraft.curseforge.com/projects/ctd-currency)
 Formerly known as CTD Currency, CTD Mint adds currency to Minecraft based close on the USD system.  
-# CurseForge  
-https://minecraft.curseforge.com/projects/ctd-currency
+ 
+[![Available on Github!](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact-minimal/available/github_vector.svg)](https://github.com/MasterGeneral156/CTD-Mint/) [![Available on CurseForge!](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/curseforge_vector.svg)](https://www.curseforge.com/minecraft/mc-mods/ctd-currency) [![Available on Modrinth!](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/compact/available/modrinth_vector.svg)](https://modrinth.com/mod/ctd-mint)
