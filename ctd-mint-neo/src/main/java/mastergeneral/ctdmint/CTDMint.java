@@ -2,7 +2,6 @@ package mastergeneral.ctdmint;
 
 import com.themastergeneral.ctdcore.helpers.ModUtils;
 import mastergeneral.ctdmint.registry.ItemRegistry;
-import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -42,8 +41,6 @@ public class CTDMint {
     @SubscribeEvent
     public void onVillagerTrades(VillagerTradesEvent event)
     {
-        if (event.getType() != VillagerProfession.NONE)
-        {
             event.getTrades().get(1).add(new BasicItemListing(
                     new ItemStack(Items.GOLD_NUGGET, 1),
                     new ItemStack(ItemRegistry.bill_2.get(), 10),
@@ -138,9 +135,6 @@ public class CTDMint {
                     new ItemStack(ItemRegistry.bill_5.get(), 4),
                     1, 20, 1F
             ));
-
-            if (event.getType() == VillagerProfession.TOOLSMITH)
-            {
                 //Coal
                 event.getTrades().get(1).add(new BasicItemListing(
                         new ItemStack(Items.COAL, 16),
@@ -154,10 +148,7 @@ public class CTDMint {
                         new ItemStack(ItemRegistry.bill_5.get(), 10),
                         1, 20, 1F
                 ));
-            }
 
-            if (event.getType() == VillagerProfession.LEATHERWORKER)
-            {
                 event.getTrades().get(1).add(new BasicItemListing(
                         new ItemStack(Items.LEATHER, 8),
                         new ItemStack(ItemRegistry.bill_20.get(), 1),
@@ -169,10 +160,7 @@ public class CTDMint {
                         new ItemStack(ItemRegistry.bill_5.get(), 3),
                         5, 20, 1F
                 ));
-            }
 
-            if (event.getType() == VillagerProfession.LIBRARIAN)
-            {
                 event.getTrades().get(1).add(new BasicItemListing(
                         new ItemStack(Items.BOOK, 12),
                         new ItemStack(ItemRegistry.bill_10.get(), 3),
@@ -196,10 +184,7 @@ public class CTDMint {
                         new ItemStack(ItemRegistry.bill_5.get(), 3),
                         5, 20, 1F
                 ));
-            }
 
-            if (event.getType() == VillagerProfession.CARTOGRAPHER)
-            {
                 event.getTrades().get(1).add(new BasicItemListing(
                         new ItemStack(Items.MAP, 1),
                         new ItemStack(ItemRegistry.bill_50.get(), 2),
@@ -223,9 +208,6 @@ public class CTDMint {
                         new ItemStack(ItemRegistry.bill_50.get(), 2),
                         3, 20, 1F
                 ));
-            }
-
-        }
     }
 
 }
