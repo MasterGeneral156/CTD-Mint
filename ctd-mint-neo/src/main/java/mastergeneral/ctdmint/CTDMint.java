@@ -41,44 +41,6 @@ public class CTDMint {
     @SubscribeEvent
     public void onVillagerTrades(VillagerTradesEvent event)
     {
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.GOLD_NUGGET, 1),
-                    new ItemStack(ItemRegistry.bill_2.get(), 10),
-                    10, 20, 1F
-            ));
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.GOLD_INGOT, 1),
-                    new ItemStack(ItemRegistry.bill_50.get(), 4),
-                    5, 20, 1F
-            ));
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.GOLD_BLOCK, 1),
-                    new ItemStack(ItemRegistry.bill_500.get(), 4),
-                    1, 20, 1F
-            ));
-
-            //Iron
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.IRON_NUGGET, 1),
-                    new ItemStack(ItemRegistry.bill_1.get(), 10),
-                    10, 20, 1F
-            ));
-
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.IRON_INGOT, 1),
-                    new ItemStack(ItemRegistry.bill_10.get(), 10),
-                    5, 20, 1F
-            ));
-
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.IRON_BLOCK, 1),
-                    new ItemStack(ItemRegistry.bill_100.get(), 10),
-                    1, 20, 1F
-            ));
 
             //Emerald
             event.getTrades().get(1).add(new BasicItemListing(
