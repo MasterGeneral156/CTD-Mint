@@ -42,33 +42,6 @@ public class CTDMint {
     public void onVillagerTrades(VillagerTradesEvent event)
     {
 
-            //Emerald
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.EMERALD, 1),
-                    new ItemStack(ItemRegistry.bill_10.get(), 5),
-                    5, 20, 1F
-            ));
-
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.EMERALD_BLOCK, 1),
-                    new ItemStack(ItemRegistry.bill_50.get(), 10),
-                    2, 20, 1F
-            ));
-
-            //Diamond
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.DIAMOND, 1),
-                    new ItemStack(ItemRegistry.bill_20.get(), 2),
-                    8, 20, 1F
-            ));
-
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.DIAMOND_BLOCK, 1),
-                    new ItemStack(ItemRegistry.bill_100.get(), 4),
-                    1, 20, 1F
-            ));
 
             //Ameythst
             event.getTrades().get(1).add(new BasicItemListing(
