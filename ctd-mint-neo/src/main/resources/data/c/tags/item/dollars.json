@@ -1,0 +1,20 @@
+{
+  "values": [
+    "ctdmint:bill_1",
+    "ctdmint:bill_2",
+    "ctdmint:bill_5",
+    "ctdmint:bill_10",
+    "ctdmint:bill_20",
+    "ctdmint:bill_50",
+    "ctdmint:bill_100",
+    "ctdmint:bill_500",
+    "ctdmint:bill_1000",
+    "ctdmint:bill_5000",
+    "ctdmint:bill_10000",
+    "ctdmint:bill_50000",
+    "ctdmint:bill_100000",
+    "ctdmint:bill_500000",
+    "ctdmint:bill_1000000",
+    "ctdmint:bill_5000000"
+  ]
+}
