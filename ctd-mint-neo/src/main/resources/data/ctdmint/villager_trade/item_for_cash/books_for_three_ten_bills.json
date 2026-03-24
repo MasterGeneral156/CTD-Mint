@@ -1,0 +1,13 @@
+{
+    "gives": {
+        "count": 3,
+        "id": "ctdmint:bill_10"
+    },
+    "max_uses": 8,
+    "reputation_discount": 0.05,
+    "wants": {
+        "count": 12,
+        "id": "minecraft:book"
+    },
+    "xp": 1
+}

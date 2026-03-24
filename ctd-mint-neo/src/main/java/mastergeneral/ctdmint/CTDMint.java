@@ -6,7 +6,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.neoforge.common.BasicItemListing;
-import net.neoforged.neoforge.event.village.VillagerTradesEvent;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -29,91 +28,11 @@ public class CTDMint {
         modEventBus.addListener(this::setup);
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
-
-        NeoForge.EVENT_BUS.addListener(this::onVillagerTrades);
     }
 
     private void setup(final FMLCommonSetupEvent event)
     {
         LOGGER.info("CTD Mint is launching for " + ModUtils.getLoader() + " v" + ModUtils.getLoaderVersion());
-    }
-
-    @SubscribeEvent
-    public void onVillagerTrades(VillagerTradesEvent event)
-    {
-                //Coal
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.COAL, 16),
-                        new ItemStack(ItemRegistry.bill_5.get(), 2),
-                        5, 20, 1F
-                ));
-
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.COAL_BLOCK, 16),
-                        new ItemStack(ItemRegistry.bill_5.get(), 10),
-                        1, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.LEATHER, 8),
-                        new ItemStack(ItemRegistry.bill_20.get(), 1),
-                        5, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.RABBIT_HIDE, 14),
-                        new ItemStack(ItemRegistry.bill_5.get(), 3),
-                        5, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.BOOK, 12),
-                        new ItemStack(ItemRegistry.bill_10.get(), 3),
-                        5, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.PAPER, 36),
-                        new ItemStack(ItemRegistry.bill_20.get(), 2),
-                        3, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.ENCHANTED_BOOK, 1),
-                        new ItemStack(ItemRegistry.bill_50.get(), 3),
-                        5, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.WRITABLE_BOOK, 1),
-                        new ItemStack(ItemRegistry.bill_5.get(), 3),
-                        5, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.MAP, 1),
-                        new ItemStack(ItemRegistry.bill_50.get(), 2),
-                        3, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.PAPER, 36),
-                        new ItemStack(ItemRegistry.bill_20.get(), 2),
-                        3, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.COMPASS, 1),
-                        new ItemStack(ItemRegistry.bill_5.get(), 5),
-                        3, 20, 1F
-                ));
-
-                event.getTrades().get(1).add(new BasicItemListing(
-                        new ItemStack(Items.FILLED_MAP, 1),
-                        new ItemStack(ItemRegistry.bill_50.get(), 2),
-                        3, 20, 1F
-                ));
     }
 
 }
