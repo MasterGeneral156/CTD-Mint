@@ -1,0 +1,13 @@
+{
+    "gives": {
+        "count": 12,
+        "id": "ctdmint:bill_100"
+    },
+    "max_uses": 1,
+    "reputation_discount": 0.05,
+    "wants": {
+        "count": 1,
+        "id": "minecraft:ameythyst_block"
+    },
+    "xp": 1
+}

@@ -41,35 +41,6 @@ public class CTDMint {
     @SubscribeEvent
     public void onVillagerTrades(VillagerTradesEvent event)
     {
-
-
-            //Ameythst
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.AMETHYST_SHARD, 1),
-                    new ItemStack(ItemRegistry.bill_20.get(), 6),
-                    8, 20, 1F
-            ));
-
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.AMETHYST_BLOCK, 1),
-                    new ItemStack(ItemRegistry.bill_100.get(), 12),
-                    2, 20, 1F
-            ));
-
-            //Copper
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.COPPER_INGOT, 1),
-                    new ItemStack(ItemRegistry.bill_1.get(), 2),
-                    8, 20, 1F
-            ));
-
-
-            event.getTrades().get(1).add(new BasicItemListing(
-                    new ItemStack(Items.COPPER_BLOCK, 1),
-                    new ItemStack(ItemRegistry.bill_5.get(), 4),
-                    1, 20, 1F
-            ));
                 //Coal
                 event.getTrades().get(1).add(new BasicItemListing(
                         new ItemStack(Items.COAL, 16),
