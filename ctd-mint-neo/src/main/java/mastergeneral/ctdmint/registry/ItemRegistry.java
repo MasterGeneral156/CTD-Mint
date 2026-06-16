@@ -1,5 +1,5 @@
 /**
- *  Project:	CTD Mint 26.1
+ *  Project:	CTD Mint 26.2
  * 	File:		mastergeneral.ctdmint.registry.ItemRegistry
  * 	Author:		TheMasterGeneral
  * 	Website: 	https://github.com/MasterGeneral156/CTD-Mint
