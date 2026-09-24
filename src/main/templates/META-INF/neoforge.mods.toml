@@ -7,23 +7,10 @@ version="${mod_version}" #mandatory
 displayName="${mod_name}" #mandatory
 updateJSONURL="https://raw.githubusercontent.com/MasterGeneral156/Version/master/ctd-mint.json" #optional
 displayURL="https://www.curseforge.com/minecraft/mc-mods/ctd-currency" #optional
-#logoFile="logo.png" #optional
+iconFile="ctd-mint.png" #optional
 authors="${mod_authors}" #optional
 description='''${mod_description}'''
 
-[[dependencies.${mod_id}]] #optional
-    modId="neoforge" #mandatory
-    type="required" #mandatory
-    versionRange="[${neo_version},)" #mandatory
-    ordering="NONE"
-    side="BOTH"
-
-[[dependencies.${mod_id}]]
-    modId="minecraft"
-    type="required"
-    versionRange="${minecraft_version_range}"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.${mod_id}]]
     modId="ctdcore"
